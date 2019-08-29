@@ -676,7 +676,6 @@ a {
     color: #929292;
     font-size: .83vw;
     font-family: itcmedium;
-    max-width: ;
 }
 
 .box_respuesta {
@@ -712,4 +711,33 @@ a {
     position: absolute;
     top: 6.6vw;
     left: 40.8vw;
+}
+
+
+
+@media (max-width: 1440px) {
+    .flogin {
+        padding-left: 3.5vw;
+    }
+    .btn_login {
+        bottom: 18.5vw;
+    }   
+    .proceso_flecha1, .proceso_flecha2, .proceso_flecha3 {
+        width: 4.2vw;
+    }
+    .ancho_imgreclamos{
+        width: 14vw;
+    }
+    .flecha_reclamo1, .flecha_reclamo2 {
+        width: 4.5vw;
+    }
+    .inactivo .flecha_reclamo1, .inactivo .flecha_reclamo2 {
+        left: 14.7vw;
+        filter: brightness(0.4);
+}
+
+@media (max-width: 1366px) {
+    .btn_login {
+        bottom: 21.7vw;
+    }   
 }
